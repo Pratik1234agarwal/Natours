@@ -1,0 +1,17 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Pratik Agarwal",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
