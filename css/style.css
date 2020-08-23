@@ -566,13 +566,14 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(7px);
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
   transition: all 0.4s; }
   .popup__content {
-    position: abs4olute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
